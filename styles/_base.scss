@@ -1,0 +1,62 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+}
+
+ul, ol {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    transition: all 0.3s;
+    color: inherit;
+}
+
+
+img,
+svg {
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+
+// .wrapper {
+//     overflow: hidden;
+// }
+
+.container {
+    max-width: 1280px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+
+
+// .white-title,
+// .black-title {
+//     font: $h1-font;
+// }
+
+// .white-title {
+//     color: $white-color;
+//     text-shadow: 0 0 2px $main-color;
+// }

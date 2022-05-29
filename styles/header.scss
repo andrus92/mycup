@@ -1,0 +1,51 @@
+.header {
+    padding: 32px 0 24px;
+
+    &__top {
+        display:  flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-bottom: 46px;
+
+        &-phone {
+            display: flex;
+            flex-direction: column;
+            gap: 6px;
+        }
+    
+        &-logo {
+            width: 112px;
+            height: 52px;
+        }
+
+        a {
+            display: flex;
+            gap: 8px;
+        }
+
+        &-nav {
+            display: flex;
+            align-items: center;
+            gap: 24px;
+        }
+    }
+
+    &__bottom {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 26px;
+        border-top: 1px solid rgba(0, 0, 0, 0.6);;
+
+        &-list {
+            display: flex;
+            gap: 55px;
+            text-transform: uppercase;
+        }
+
+        &-search {
+            background: transparent;
+            border: none;
+        }
+    }
+}
